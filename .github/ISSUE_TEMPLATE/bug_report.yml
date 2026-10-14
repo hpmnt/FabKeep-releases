@@ -1,0 +1,122 @@
+name: 🐞 Bug report
+description: Something in FabKeep doesn't work the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem! Issues on this page are **public** — please don't include private files, file paths you'd rather not share, passwords or API keys.
+
+        🔒 **Found a security problem?** Don't report it here — use the [private security report](https://github.com/hpmnt/FabKeep-releases/security/advisories/new) instead.
+
+        💡 You can also report bugs from inside FabKeep with **Beta feedback › Report a bug…** (bottom left of the window) — it adds diagnostics and a screenshot for you and sends them by email instead of posting them publicly.
+
+  - type: input
+    id: version
+    attributes:
+      label: FabKeep version
+      description: Shown at the bottom right of the FabKeep window (e.g. `v0.1.61 beta`).
+      placeholder: v0.1.61 beta
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of FabKeep?
+      options:
+        - Installing or updating
+        - First-run setup
+        - Folders / finding new files
+        - Library views, search and filters
+        - Preview pictures (tiles)
+        - 3D preview / large view
+        - Opening files in programs (slicer, LightBurn, Design Space …)
+        - Categories, tags and notes
+        - Printers & machines / maintenance
+        - AI sorting
+        - 3D design with AI
+        - Settings, backup & import
+        - Beta feedback / survey
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem. Include any error message exactly as FabKeep shows it.
+      placeholder: When I select a 3MF project from Bambu Studio, the 3D preview stays empty and shows "Interactive preview unavailable".
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      description: The steps that lead to the problem, as exactly as you can.
+      placeholder: |
+        1. Open the Laser folder
+        2. Click baseball.lbrn2
+        3. The preview stays empty
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: input
+    id: file-type
+    attributes:
+      label: Kind of file involved (if any)
+      description: The file type and the program that made it.
+      placeholder: .3mf saved by Bambu Studio 2.2, 45 MB, 3 plates
+    validations:
+      required: false
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - It happened once
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: |
+        Drag screenshots in here. If the problem is with one particular file and you're happy to share it, you can attach it (zip it first). FabKeep's error log is in `%APPDATA%\FabKeep\logs\fabkeep.log` — it can contain file and folder names, so look through it before attaching.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I'm using the latest version of FabKeep (Settings › Updates › Check now).
+          required: false
+        - label: I searched the existing issues and this hasn't been reported yet.
+          required: true
