@@ -1,0 +1,57 @@
+name: 📁 File type or program support
+description: A file that doesn't show a preview, a file type FabKeep should collect, or a program it should open files in.
+title: "[Files] "
+labels: ["file support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        FabKeep reads 3D-print, CNC, laser, Cricut, CAD, vector and image files — the full list is on the wiki page [Supported files and programs](https://github.com/hpmnt/FabKeep-releases/wiki/Supported-Files-and-Programs). Use this form if something is missing or a file isn't shown correctly.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it about?
+      options:
+        - A file type FabKeep doesn't collect yet
+        - A file that shows no preview or a wrong preview
+        - Wrong size, details or fit check for a file
+        - A program FabKeep should find or open files in
+        - A machine or printer model that's missing
+    validations:
+      required: true
+
+  - type: input
+    id: format
+    attributes:
+      label: File type and program
+      description: The file extension, and the program (with version) that makes or opens it.
+      placeholder: .studio3 — Silhouette Studio 5
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: FabKeep version
+      description: Shown at the bottom right of the FabKeep window.
+      placeholder: v0.1.61 beta
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you see in FabKeep, and what you expected. For a program — where it is installed (e.g. `C:\Program Files\…`).
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample file (optional, but very helpful)
+      description: |
+        A small sample file makes support much easier to add. Zip it and drag it in here — **only share files you're allowed to share publicly** (no paid designs).
+    validations:
+      required: false
