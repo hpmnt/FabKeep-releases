@@ -1,0 +1,28 @@
+name: ❓ Question or something confusing
+description: Not sure how something works, or something in FabKeep is hard to understand.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, the answer may already be in the built-in user guide — press **F1** in FabKeep, or click any **?** button — or on the [wiki](https://github.com/hpmnt/FabKeep-releases/wiki) and its [FAQ](https://github.com/hpmnt/FabKeep-releases/wiki/FAQ-and-Troubleshooting).
+
+        If something was confusing, please tell us anyway — that's how the guide and the app get better.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and where did you get stuck?
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: FabKeep version
+      description: Shown at the bottom right of the FabKeep window.
+      placeholder: v0.1.61 beta
+    validations:
+      required: false
