@@ -1,0 +1,58 @@
+name: 💡 Idea or feature request
+description: Suggest something new, or a way to make FabKeep better.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape FabKeep! Ideas big and small are welcome.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Tell us what you're trying to get done, or what bothers you today. The *why* helps us most.
+      placeholder: I keep my vinyl and HTV designs in separate folders, and I'd like to see at a glance which ones I've already cut.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How could FabKeep help? Rough is fine — a sketch or screenshot of a similar feature elsewhere is great too.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of FabKeep?
+      options:
+        - Library, search and organising
+        - Previews and the 3D preview
+        - File types and programs
+        - Printers & machines / maintenance
+        - AI sorting
+        - 3D design with AI
+        - Settings, backup and updates
+        - Something new
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle it today?
+      description: Any workaround or other program you use for this now.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched the existing issues and this hasn't been suggested yet (if it has, add a 👍 to that one instead).
+          required: true
