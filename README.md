@@ -6,7 +6,7 @@ FabKeep keeps your maker files organised — like a music library, but for model
 
 > **Open beta.** FabKeep is free and in open beta: almost everything works, but you may meet rough edges. Please report anything odd — see [Feedback and Security](Feedback-and-Security).
 
-**[⬇ Download the latest version](https://github.com/hpmnt/FabKeep-releases/releases/latest)** · [Installing FabKeep](Installing-FabKeep) · [Getting started](Getting-Started)
+**[⬇ Download the latest version](https://github.com/hpmnt/FabKeep-releases/releases/latest)**
 
 ---
 
