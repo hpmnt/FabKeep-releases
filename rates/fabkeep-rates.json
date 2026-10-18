@@ -1,0 +1,901 @@
+{
+ "version": 1,
+ "updated": "2026-10-16",
+ "note": "Fees and rates as published by each company / government; check the source when something looks off.",
+ "usStates": {
+  "AL": {
+   "name": "Alabama",
+   "fips": "01",
+   "rate": 4,
+   "zip3": "350-369"
+  },
+  "AK": {
+   "name": "Alaska",
+   "fips": "02",
+   "rate": 0,
+   "zip3": "995-999"
+  },
+  "AZ": {
+   "name": "Arizona",
+   "fips": "04",
+   "rate": 5.6,
+   "zip3": "850-865"
+  },
+  "AR": {
+   "name": "Arkansas",
+   "fips": "05",
+   "rate": 6.5,
+   "zip3": "716-729"
+  },
+  "CA": {
+   "name": "California",
+   "fips": "06",
+   "rate": 7.25,
+   "zip3": "900-961"
+  },
+  "CO": {
+   "name": "Colorado",
+   "fips": "08",
+   "rate": 2.9,
+   "zip3": "800-816"
+  },
+  "CT": {
+   "name": "Connecticut",
+   "fips": "09",
+   "rate": 6.35,
+   "zip3": "060-069"
+  },
+  "DE": {
+   "name": "Delaware",
+   "fips": "10",
+   "rate": 0,
+   "zip3": "197-199"
+  },
+  "DC": {
+   "name": "District of Columbia",
+   "fips": "11",
+   "rate": 6,
+   "zip3": "200,202-205,569"
+  },
+  "FL": {
+   "name": "Florida",
+   "fips": "12",
+   "rate": 6,
+   "zip3": "320-339,341-349"
+  },
+  "GA": {
+   "name": "Georgia",
+   "fips": "13",
+   "rate": 4,
+   "zip3": "300-319,398-399"
+  },
+  "HI": {
+   "name": "Hawaii",
+   "fips": "15",
+   "rate": 4,
+   "zip3": "967-968"
+  },
+  "ID": {
+   "name": "Idaho",
+   "fips": "16",
+   "rate": 6,
+   "zip3": "832-838"
+  },
+  "IL": {
+   "name": "Illinois",
+   "fips": "17",
+   "rate": 6.25,
+   "zip3": "600-629"
+  },
+  "IN": {
+   "name": "Indiana",
+   "fips": "18",
+   "rate": 7,
+   "zip3": "460-479"
+  },
+  "IA": {
+   "name": "Iowa",
+   "fips": "19",
+   "rate": 6,
+   "zip3": "500-528"
+  },
+  "KS": {
+   "name": "Kansas",
+   "fips": "20",
+   "rate": 6.5,
+   "zip3": "660-679"
+  },
+  "KY": {
+   "name": "Kentucky",
+   "fips": "21",
+   "rate": 6,
+   "zip3": "400-427"
+  },
+  "LA": {
+   "name": "Louisiana",
+   "fips": "22",
+   "rate": 5,
+   "zip3": "700-714"
+  },
+  "ME": {
+   "name": "Maine",
+   "fips": "23",
+   "rate": 5.5,
+   "zip3": "039-049"
+  },
+  "MD": {
+   "name": "Maryland",
+   "fips": "24",
+   "rate": 6,
+   "zip3": "206-219"
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "fips": "25",
+   "rate": 6.25,
+   "zip3": "010-027,055"
+  },
+  "MI": {
+   "name": "Michigan",
+   "fips": "26",
+   "rate": 6,
+   "zip3": "480-499"
+  },
+  "MN": {
+   "name": "Minnesota",
+   "fips": "27",
+   "rate": 6.875,
+   "zip3": "550-567"
+  },
+  "MS": {
+   "name": "Mississippi",
+   "fips": "28",
+   "rate": 7,
+   "zip3": "386-397"
+  },
+  "MO": {
+   "name": "Missouri",
+   "fips": "29",
+   "rate": 4.225,
+   "zip3": "630-658"
+  },
+  "MT": {
+   "name": "Montana",
+   "fips": "30",
+   "rate": 0,
+   "zip3": "590-599"
+  },
+  "NE": {
+   "name": "Nebraska",
+   "fips": "31",
+   "rate": 5.5,
+   "zip3": "680-693"
+  },
+  "NV": {
+   "name": "Nevada",
+   "fips": "32",
+   "rate": 6.85,
+   "zip3": "889-898"
+  },
+  "NH": {
+   "name": "New Hampshire",
+   "fips": "33",
+   "rate": 0,
+   "zip3": "030-038"
+  },
+  "NJ": {
+   "name": "New Jersey",
+   "fips": "34",
+   "rate": 6.625,
+   "zip3": "070-089"
+  },
+  "NM": {
+   "name": "New Mexico",
+   "fips": "35",
+   "rate": 4.875,
+   "zip3": "870-884"
+  },
+  "NY": {
+   "name": "New York",
+   "fips": "36",
+   "rate": 4,
+   "zip3": "005,100-149"
+  },
+  "NC": {
+   "name": "North Carolina",
+   "fips": "37",
+   "rate": 4.75,
+   "zip3": "270-289"
+  },
+  "ND": {
+   "name": "North Dakota",
+   "fips": "38",
+   "rate": 5,
+   "zip3": "580-588"
+  },
+  "OH": {
+   "name": "Ohio",
+   "fips": "39",
+   "rate": 5.75,
+   "zip3": "430-459"
+  },
+  "OK": {
+   "name": "Oklahoma",
+   "fips": "40",
+   "rate": 4.5,
+   "zip3": "730-731,734-749"
+  },
+  "OR": {
+   "name": "Oregon",
+   "fips": "41",
+   "rate": 0,
+   "zip3": "970-979"
+  },
+  "PA": {
+   "name": "Pennsylvania",
+   "fips": "42",
+   "rate": 6,
+   "zip3": "150-196"
+  },
+  "RI": {
+   "name": "Rhode Island",
+   "fips": "44",
+   "rate": 7,
+   "zip3": "028-029"
+  },
+  "SC": {
+   "name": "South Carolina",
+   "fips": "45",
+   "rate": 6,
+   "zip3": "290-299"
+  },
+  "SD": {
+   "name": "South Dakota",
+   "fips": "46",
+   "rate": 4.2,
+   "zip3": "570-577"
+  },
+  "TN": {
+   "name": "Tennessee",
+   "fips": "47",
+   "rate": 7,
+   "zip3": "370-385"
+  },
+  "TX": {
+   "name": "Texas",
+   "fips": "48",
+   "rate": 6.25,
+   "zip3": "733,750-799,885"
+  },
+  "UT": {
+   "name": "Utah",
+   "fips": "49",
+   "rate": 6.1,
+   "zip3": "840-847"
+  },
+  "VT": {
+   "name": "Vermont",
+   "fips": "50",
+   "rate": 6,
+   "zip3": "050-059"
+  },
+  "VA": {
+   "name": "Virginia",
+   "fips": "51",
+   "rate": 5.3,
+   "zip3": "201,220-246"
+  },
+  "WA": {
+   "name": "Washington",
+   "fips": "53",
+   "rate": 6.5,
+   "zip3": "980-994"
+  },
+  "WV": {
+   "name": "West Virginia",
+   "fips": "54",
+   "rate": 6,
+   "zip3": "247-268"
+  },
+  "WI": {
+   "name": "Wisconsin",
+   "fips": "55",
+   "rate": 5,
+   "zip3": "530-549"
+  },
+  "WY": {
+   "name": "Wyoming",
+   "fips": "56",
+   "rate": 4,
+   "zip3": "820-831"
+  }
+ },
+ "usLookupHelp": "https://www.taxadmin.org/state-tax-agencies",
+ "countries": {
+  "US": {
+   "name": "United States",
+   "currency": "USD",
+   "tax": "Sales tax"
+  },
+  "CA": {
+   "name": "Canada",
+   "currency": "CAD",
+   "tax": "GST",
+   "rate": 5,
+   "regions": {
+    "AB": [
+     "Alberta",
+     0
+    ],
+    "BC": [
+     "British Columbia (PST)",
+     7
+    ],
+    "MB": [
+     "Manitoba (RST)",
+     7
+    ],
+    "NB": [
+     "New Brunswick (HST)",
+     10
+    ],
+    "NL": [
+     "Newfoundland and Labrador (HST)",
+     10
+    ],
+    "NS": [
+     "Nova Scotia (HST)",
+     9
+    ],
+    "NT": [
+     "Northwest Territories",
+     0
+    ],
+    "NU": [
+     "Nunavut",
+     0
+    ],
+    "ON": [
+     "Ontario (HST)",
+     8
+    ],
+    "PE": [
+     "Prince Edward Island (HST)",
+     10
+    ],
+    "QC": [
+     "Quebec (QST)",
+     9.975
+    ],
+    "SK": [
+     "Saskatchewan (PST)",
+     6
+    ],
+    "YT": [
+     "Yukon",
+     0
+    ]
+   }
+  },
+  "GB": {
+   "name": "United Kingdom",
+   "currency": "GBP",
+   "tax": "VAT",
+   "rate": 20
+  },
+  "IE": {
+   "name": "Ireland",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 23
+  },
+  "AT": {
+   "name": "Austria",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 20
+  },
+  "BE": {
+   "name": "Belgium",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 21
+  },
+  "BG": {
+   "name": "Bulgaria",
+   "currency": "BGN",
+   "tax": "VAT",
+   "rate": 20
+  },
+  "HR": {
+   "name": "Croatia",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 25
+  },
+  "CY": {
+   "name": "Cyprus",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 19
+  },
+  "CZ": {
+   "name": "Czechia",
+   "currency": "CZK",
+   "tax": "VAT",
+   "rate": 21
+  },
+  "DK": {
+   "name": "Denmark",
+   "currency": "DKK",
+   "tax": "VAT",
+   "rate": 25
+  },
+  "EE": {
+   "name": "Estonia",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 24
+  },
+  "FI": {
+   "name": "Finland",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 25.5
+  },
+  "FR": {
+   "name": "France",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 20
+  },
+  "DE": {
+   "name": "Germany",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 19
+  },
+  "GR": {
+   "name": "Greece",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 24
+  },
+  "HU": {
+   "name": "Hungary",
+   "currency": "HUF",
+   "tax": "VAT",
+   "rate": 27
+  },
+  "IT": {
+   "name": "Italy",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 22
+  },
+  "LV": {
+   "name": "Latvia",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 21
+  },
+  "LT": {
+   "name": "Lithuania",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 21
+  },
+  "LU": {
+   "name": "Luxembourg",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 17
+  },
+  "MT": {
+   "name": "Malta",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 18
+  },
+  "NL": {
+   "name": "Netherlands",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 21
+  },
+  "PL": {
+   "name": "Poland",
+   "currency": "PLN",
+   "tax": "VAT",
+   "rate": 23
+  },
+  "PT": {
+   "name": "Portugal",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 23
+  },
+  "RO": {
+   "name": "Romania",
+   "currency": "RON",
+   "tax": "VAT",
+   "rate": 21
+  },
+  "SK": {
+   "name": "Slovakia",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 23
+  },
+  "SI": {
+   "name": "Slovenia",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 22
+  },
+  "ES": {
+   "name": "Spain",
+   "currency": "EUR",
+   "tax": "VAT",
+   "rate": 21
+  },
+  "SE": {
+   "name": "Sweden",
+   "currency": "SEK",
+   "tax": "VAT",
+   "rate": 25
+  },
+  "NO": {
+   "name": "Norway",
+   "currency": "NOK",
+   "tax": "VAT",
+   "rate": 25
+  },
+  "CH": {
+   "name": "Switzerland",
+   "currency": "CHF",
+   "tax": "VAT",
+   "rate": 8.1
+  },
+  "IS": {
+   "name": "Iceland",
+   "currency": "ISK",
+   "tax": "VAT",
+   "rate": 24
+  },
+  "AU": {
+   "name": "Australia",
+   "currency": "AUD",
+   "tax": "GST",
+   "rate": 10
+  },
+  "NZ": {
+   "name": "New Zealand",
+   "currency": "NZD",
+   "tax": "GST",
+   "rate": 15
+  },
+  "JP": {
+   "name": "Japan",
+   "currency": "JPY",
+   "tax": "Consumption tax",
+   "rate": 10
+  },
+  "SG": {
+   "name": "Singapore",
+   "currency": "SGD",
+   "tax": "GST",
+   "rate": 9
+  },
+  "ZA": {
+   "name": "South Africa",
+   "currency": "ZAR",
+   "tax": "VAT",
+   "rate": 15
+  },
+  "MX": {
+   "name": "Mexico",
+   "currency": "MXN",
+   "tax": "IVA",
+   "rate": 16
+  },
+  "IN": {
+   "name": "India",
+   "currency": "INR",
+   "tax": "GST",
+   "rate": 18
+  },
+  "AE": {
+   "name": "United Arab Emirates",
+   "currency": "AED",
+   "tax": "VAT",
+   "rate": 5
+  },
+  "SA": {
+   "name": "Saudi Arabia",
+   "currency": "SAR",
+   "tax": "VAT",
+   "rate": 15
+  },
+  "KR": {
+   "name": "South Korea",
+   "currency": "KRW",
+   "tax": "VAT",
+   "rate": 10
+  },
+  "TR": {
+   "name": "Türkiye",
+   "currency": "TRY",
+   "tax": "VAT",
+   "rate": 20
+  },
+  "IL": {
+   "name": "Israel",
+   "currency": "ILS",
+   "tax": "VAT",
+   "rate": 18
+  },
+  "PH": {
+   "name": "Philippines",
+   "currency": "PHP",
+   "tax": "VAT",
+   "rate": 12
+  }
+ },
+ "channels": {
+  "etsy": {
+   "name": "Etsy",
+   "collectsTax": true,
+   "source": "https://www.etsy.com/legal/fees/",
+   "regions": {
+    "US": {
+     "fixed": [
+      [
+       "Listing fee",
+       0.2
+      ]
+     ],
+     "pct": [
+      [
+       "Transaction fee",
+       6.5
+      ]
+     ],
+     "pay": [
+      3,
+      0.25,
+      true
+     ],
+     "optional": [
+      [
+       "offsite",
+       "Offsite Ads (only when the sale came from an ad)",
+       15
+      ]
+     ]
+    },
+    "CA": {
+     "fixed": [
+      [
+       "Listing fee",
+       0.27
+      ]
+     ],
+     "pct": [
+      [
+       "Transaction fee",
+       6.5
+      ]
+     ],
+     "pay": [
+      3,
+      0.25,
+      true
+     ],
+     "optional": [
+      [
+       "offsite",
+       "Offsite Ads (only when the sale came from an ad)",
+       15
+      ]
+     ]
+    },
+    "GB": {
+     "fixed": [
+      [
+       "Listing fee",
+       0.16
+      ]
+     ],
+     "pct": [
+      [
+       "Transaction fee",
+       6.5
+      ],
+      [
+       "Regulatory operating fee",
+       0.32
+      ]
+     ],
+     "pay": [
+      4,
+      0.2,
+      true
+     ],
+     "optional": [
+      [
+       "offsite",
+       "Offsite Ads (only when the sale came from an ad)",
+       15
+      ]
+     ]
+    },
+    "AU": {
+     "fixed": [
+      [
+       "Listing fee",
+       0.3
+      ]
+     ],
+     "pct": [
+      [
+       "Transaction fee",
+       6.5
+      ]
+     ],
+     "pay": [
+      3,
+      0.25,
+      true
+     ],
+     "optional": [
+      [
+       "offsite",
+       "Offsite Ads (only when the sale came from an ad)",
+       15
+      ]
+     ]
+    },
+    "EU": {
+     "fixed": [
+      [
+       "Listing fee",
+       0.18
+      ]
+     ],
+     "pct": [
+      [
+       "Transaction fee",
+       6.5
+      ]
+     ],
+     "pay": [
+      4,
+      0.3,
+      true
+     ],
+     "optional": [
+      [
+       "offsite",
+       "Offsite Ads (only when the sale came from an ad)",
+       15
+      ]
+     ]
+    }
+   }
+  },
+  "ebay": {
+   "name": "eBay",
+   "collectsTax": true,
+   "source": "https://www.ebay.com/help/selling/fees-credits-invoices/selling-fees",
+   "regions": {
+    "US": {
+     "fixed": [
+      [
+       "Per-order fee",
+       0.4
+      ]
+     ],
+     "pctOnTax": [
+      [
+       "Final value fee",
+       13.6
+      ]
+     ],
+     "fixedSmall": [
+      10,
+      0.3
+     ]
+    }
+   }
+  },
+  "amazon": {
+   "name": "Amazon Handmade",
+   "collectsTax": true,
+   "source": "https://sellercentral.amazon.com/",
+   "regions": {
+    "US": {
+     "pct": [
+      [
+       "Referral fee",
+       15
+      ]
+     ],
+     "minFee": 1
+    }
+   }
+  },
+  "shopify": {
+   "name": "Own website (Shopify)",
+   "collectsTax": false,
+   "source": "https://www.shopify.com/pricing",
+   "regions": {
+    "US": {
+     "pay": [
+      2.9,
+      0.3,
+      true
+     ]
+    }
+   }
+  },
+  "paypal": {
+   "name": "PayPal (goods & services)",
+   "collectsTax": false,
+   "source": "https://www.paypal.com/us/webapps/mpp/merchant-fees",
+   "regions": {
+    "US": {
+     "pay": [
+      3.49,
+      0.49,
+      true
+     ]
+    }
+   }
+  },
+  "square": {
+   "name": "Craft fair / in person (Square)",
+   "collectsTax": false,
+   "inPerson": true,
+   "source": "https://squareup.com/us/en/pricing",
+   "regions": {
+    "US": {
+     "pay": [
+      2.6,
+      0.15,
+      true
+     ]
+    },
+    "CA": {
+     "pay": [
+      2.65,
+      0,
+      true
+     ]
+    },
+    "GB": {
+     "pay": [
+      1.75,
+      0,
+      true
+     ]
+    },
+    "AU": {
+     "pay": [
+      1.6,
+      0,
+      true
+     ]
+    }
+   }
+  },
+  "cash": {
+   "name": "In person, cash",
+   "collectsTax": false,
+   "inPerson": true,
+   "regions": {
+    "ALL": {}
+   }
+  }
+ }
+}
