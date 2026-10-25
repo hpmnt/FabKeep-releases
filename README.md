@@ -23,6 +23,7 @@ FabKeep keeps your maker files organised — like a music library, but for model
 - **Zip downloads** — see what is inside a zip, its model in 3D, and unpack it with one click (**Extract here**).
 - **Workshop log**: a **To make** list, and **I made this** with date, machine, material, a note and a photo. FabKeep also keeps the settings a print was sliced with and shows **what worked** last time.
 - **Orders, materials and an overview**: log what you sold, with fees, costs, profit and the sales tax you owe; keep track of filament, sheets and vinyl on hand; and see what you made, sold and need to do at a glance. See [Workshop](https://github.com/hpmnt/FabKeep-releases/wiki/Workshop).
+- **Tools for selling**: invoices and receipts, a year report for your taxes, listing drafts for Etsy, your own photos on price lists, and a warning when a model's license doesn't allow selling. See [Workshop](https://github.com/hpmnt/FabKeep-releases/wiki/Workshop).
 - **Price lists**: a printable PDF of your models with pictures, sizes and prices, for a shop or a craft fair.
 - **Print cost and selling prices** — filament, electricity, machine wear and failed prints, then the price to charge on Etsy, eBay, Amazon Handmade, your own site or at a craft fair, after their fees, with your local sales tax handled (kept up to date automatically where the official data is free). See [Costs and Selling](https://github.com/hpmnt/FabKeep-releases/wiki/Costs-and-Selling).
 - **Designer & license** — who made a design and whether you may sell what you make from it (found by itself in MakerWorld files and the LICENSE / README notes that come with downloads).
@@ -48,7 +49,7 @@ FabKeep only **reads** your model files. It never renames, changes or deletes th
 - [Getting started](https://github.com/hpmnt/FabKeep-releases/wiki/Getting-Started) — the first-run setup and the basics
 - [Supported files and programs](https://github.com/hpmnt/FabKeep-releases/wiki/Supported-Files-and-Programs)
 - [Costs and Selling](https://github.com/hpmnt/FabKeep-releases/wiki/Costs-and-Selling) — print cost, what to charge, sales tax and shop fees
-- [Workshop](https://github.com/hpmnt/FabKeep-releases/wiki/Workshop) — orders, materials, the overview, what worked and price lists
+- [Workshop](https://github.com/hpmnt/FabKeep-releases/wiki/Workshop) — orders, materials, the overview, what worked, price lists, invoices, the year report and listings
 - [Optional AI features](https://github.com/hpmnt/FabKeep-releases/wiki/Optional-AI-Features)
 - [FAQ and troubleshooting](https://github.com/hpmnt/FabKeep-releases/wiki/FAQ-and-Troubleshooting)
 - [Feedback and Security](https://github.com/hpmnt/FabKeep-releases/wiki/Feedback-and-Security) — bug reports, ideas, the beta survey and reporting vulnerabilities ([security policy](SECURITY.md))
