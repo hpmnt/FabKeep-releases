@@ -20,7 +20,7 @@ FabKeep keeps your maker files organised — like a music library, but for model
 - **"Does it fit?"** — every model, job and drawing is checked against your 3D printers, CNC routers, lasers and Cricut machines.
 - **Categories, tags, notes and favourites** — sort files your way; search finds them by name, tag, note or category.
 - **Opens each file in the right program** — your slicer for prints, LightBurn for laser projects, Vectric for `.crv`, Cricut Design Space for cut files, and so on.
-- **Zip downloads** — see what is inside a zip, its model in 3D, and unpack it with one click (**Extract here**).
+- **Zip downloads** — see what is inside a zip and every model in it in 3D, and unpack it with one click (**Extract here**) after an antivirus check.
 - **Workshop log**: a **To make** list, and **I made this** with date, machine, material, a note and a photo. FabKeep also keeps the settings a print was sliced with and shows **what worked** last time.
 - **Orders, materials and an overview**: log what you sold, with fees, costs, profit and the sales tax you owe; keep track of filament, sheets and vinyl on hand; and see what you made, sold and need to do at a glance. See [Workshop](https://github.com/hpmnt/FabKeep-releases/wiki/Workshop).
 - **Tools for selling**: invoices and receipts, a year report for your taxes, listing drafts for Etsy, your own photos on price lists, and a warning when a model's license doesn't allow selling. See [Workshop](https://github.com/hpmnt/FabKeep-releases/wiki/Workshop).
