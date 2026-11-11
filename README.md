@@ -33,7 +33,7 @@ FabKeep keeps your maker files organised — like a music library, but for model
 - **Duplicates, filters and saved views**: find files you have twice; filter by what fits a machine, size, made / not made, license or mesh problems; keep a search or set of filters in the sidebar.
 - **Downloads inbox** (optional): new model files and zips in your Downloads folder go straight into your library, with zips unpacked.
 - **Automatic backups** — every day, week or month into a folder you choose (e.g. OneDrive).
-- **Printers & machines** — 3D printers (Bambu Lab, QIDI, Prusa, Creality …), CNC routers, lasers and Cricut machines, with their build volumes and work areas, the filaments you use, and maintenance reminders with a log.
+- **Printers & machines** — 3D printers (Bambu Lab, QIDI, Prusa, Creality …), CNC routers, lasers and Cricut machines, with their build volumes and work areas, the filaments you use, and maintenance reminders with a log — and a printable checklist to take out to the shop.
 - **Optional AI features** (off until you switch them on):
   - **AI sorting** suggests categories for your files — with an AI on your own PC (free and private) or a cloud AI. See [Optional AI features](https://github.com/hpmnt/FabKeep-releases/wiki/Optional-AI-Features).
   - **3D design** — describe a part in words and an AI builds it in Fusion 360 and saves an STL into your library.
