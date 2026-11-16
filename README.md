@@ -30,6 +30,7 @@ FabKeep keeps your maker files organised — like a music library, but for model
 - **Print cost and selling prices** — filament, electricity, machine wear and failed prints, then the price to charge on Etsy, eBay, Amazon Handmade, your own site or at a craft fair, after their fees, with your local sales tax handled (kept up to date automatically where the official data is free). See [Costs and Selling](https://github.com/hpmnt/FabKeep-releases/wiki/Costs-and-Selling).
 - **Designer & license** — who made a design and whether you may sell what you make from it (found by itself in MakerWorld files and the LICENSE / README notes that come with downloads).
 - **Mesh check**: models are checked for holes, broken edges and flipped faces before you slice them.
+- **One library for the whole shop** (new): share it with the other PCs on your network, everyone signs in with their own name, and you choose what each person may do. See [Sharing a library between PCs](https://github.com/hpmnt/FabKeep-releases/wiki/Sharing-a-Library).
 - **Duplicates, filters and saved views**: find files you have twice; filter by what fits a machine, size, made / not made, license or mesh problems; keep a search or set of filters in the sidebar.
 - **Downloads inbox** (optional): new model files and zips in your Downloads folder go straight into your library, with zips unpacked.
 - **Automatic backups** — every day, week or month into a folder you choose (e.g. OneDrive).
@@ -52,6 +53,7 @@ FabKeep only **reads** your model files. It never renames, changes or deletes th
 - [Supported files and programs](https://github.com/hpmnt/FabKeep-releases/wiki/Supported-Files-and-Programs)
 - [Costs and Selling](https://github.com/hpmnt/FabKeep-releases/wiki/Costs-and-Selling) — print cost, what to charge, sales tax and shop fees
 - [Workshop](https://github.com/hpmnt/FabKeep-releases/wiki/Workshop) — orders, materials, projects, the batch planner, the settings library, the overview, price lists, invoices, the year report and listings
+- [Sharing a library between PCs](https://github.com/hpmnt/FabKeep-releases/wiki/Sharing-a-Library) — one library on several PCs, people and permissions
 - [Optional AI features](https://github.com/hpmnt/FabKeep-releases/wiki/Optional-AI-Features)
 - [FAQ and troubleshooting](https://github.com/hpmnt/FabKeep-releases/wiki/FAQ-and-Troubleshooting)
 - [Feedback and Security](https://github.com/hpmnt/FabKeep-releases/wiki/Feedback-and-Security) — bug reports, ideas, the beta survey and reporting vulnerabilities ([security policy](SECURITY.md))
